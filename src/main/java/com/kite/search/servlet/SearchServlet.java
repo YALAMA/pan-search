@@ -3,6 +3,7 @@ package com.kite.search.servlet;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.HandlesTypes;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -35,6 +36,7 @@ public class SearchServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
+		resp.setHeader("Access-Control-Allow-Origin", "*");
 		req.setCharacterEncoding("utf-8");  
 		log.info("call doPost");
 		String keyword = req.getParameter("keyword");

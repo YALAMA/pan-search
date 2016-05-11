@@ -4,7 +4,7 @@ import com.kite.search.analysis.AnalysisBingHtml;
 import com.kite.search.analysis.AnalysisHtml;
 import com.kite.search.common.enums.ErrorEnum;
 import com.kite.search.common.enums.SearchTypeEnum;
-import com.kite.search.common.exceptoins.PanException;
+import com.kite.search.common.exceptions.PanException;
 
 /**
  * 解析html工厂类

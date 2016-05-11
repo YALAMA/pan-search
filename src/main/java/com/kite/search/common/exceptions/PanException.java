@@ -1,4 +1,4 @@
-package com.kite.search.common.exceptoins;
+package com.kite.search.common.exceptions;
 
 /**
  * ·â×°Òì³£Àà
